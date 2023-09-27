@@ -1,0 +1,9 @@
+<h1>Uploaded Image:</h1>
+
+    <img src="{{ uploaded_file_url }}" alt="Uploaded Image">
+
+
+<h1>Similar Images:</h1>
+{% for image in similar_images %}
+    <img src="{{ image }}" alt="Similar Image">
+{% endfor %}
